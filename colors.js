@@ -1,7 +1,7 @@
 module.exports.inline = {
   resets:    { '0': false },
-  bold:      { '1': { style: 'font-weight:bold' }},
-  underline: { '4': { style: 'text-decoration:underline' }},
+  bold:      { '1': { style: 'font-weight:bold' } },
+  underline: { '4': { style: 'text-decoration:underline' } },
   foregrounds: {
       '30': { style: 'color:#111' } // black
     , '31': { style: 'color:#ff7e76' } // red
@@ -46,8 +46,8 @@ module.exports.inline = {
 
 module.exports.classes = {
   resets:    { '0': false },
-  bold:      { '1': { 'class': 'ansi-bold' }},
-  underline: { '4': { 'class': 'ansi-underline' }},
+  bold:      { '1': { 'class': 'ansi-bold' } },
+  underline: { '4': { 'class': 'ansi-underline' } },
   foregrounds: {
       '30': { 'class': 'ansi-fg-black' }
     , '31': { 'class': 'ansi-fg-red' }
